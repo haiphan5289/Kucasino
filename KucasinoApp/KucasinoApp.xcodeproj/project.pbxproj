@@ -31,6 +31,10 @@
 		2ECC266325F5CB9700EEA388 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265825F5CB9700EEA388 /* DateExtension.swift */; };
 		2ECC266925F5CDF500EEA388 /* HomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC266725F5CDF500EEA388 /* HomeApp.swift */; };
 		2ECC266A25F5CDF500EEA388 /* HomeApp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC266825F5CDF500EEA388 /* HomeApp.xib */; };
+		2ECC267725F5DAB800EEA388 /* HomeKucasino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC267525F5DAB800EEA388 /* HomeKucasino.swift */; };
+		2ECC267825F5DAB800EEA388 /* HomeKucasino.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC267625F5DAB800EEA388 /* HomeKucasino.xib */; };
+		2ECC267E25F5DC3300EEA388 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC267C25F5DC3300EEA388 /* PlayVC.swift */; };
+		2ECC267F25F5DC3300EEA388 /* PlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC267D25F5DC3300EEA388 /* PlayVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +63,10 @@
 		2ECC265825F5CB9700EEA388 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		2ECC266725F5CDF500EEA388 /* HomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApp.swift; sourceTree = "<group>"; };
 		2ECC266825F5CDF500EEA388 /* HomeApp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeApp.xib; sourceTree = "<group>"; };
+		2ECC267525F5DAB800EEA388 /* HomeKucasino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKucasino.swift; sourceTree = "<group>"; };
+		2ECC267625F5DAB800EEA388 /* HomeKucasino.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeKucasino.xib; sourceTree = "<group>"; };
+		2ECC267C25F5DC3300EEA388 /* PlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		2ECC267D25F5DC3300EEA388 /* PlayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayVC.xib; sourceTree = "<group>"; };
 		BF1DF01A94567C516B645F5F /* Pods_KucasinoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KucasinoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AC36928CA4D187C5F7D04A /* Pods-KucasinoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KucasinoApp.debug.xcconfig"; path = "Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E6DDB5A55408AA42057E72F0 /* Pods-KucasinoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KucasinoApp.release.xcconfig"; path = "Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +160,8 @@
 		2ECC266525F5CDD100EEA388 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2ECC267425F5DA9A00EEA388 /* HomeKucasino */,
+				2ECC267B25F5DC1F00EEA388 /* PlayVC */,
 				2ECC266625F5CDDC00EEA388 /* HomeApp */,
 			);
 			path = Modules;
@@ -164,6 +174,24 @@
 				2ECC266825F5CDF500EEA388 /* HomeApp.xib */,
 			);
 			path = HomeApp;
+			sourceTree = "<group>";
+		};
+		2ECC267425F5DA9A00EEA388 /* HomeKucasino */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC267525F5DAB800EEA388 /* HomeKucasino.swift */,
+				2ECC267625F5DAB800EEA388 /* HomeKucasino.xib */,
+			);
+			path = HomeKucasino;
+			sourceTree = "<group>";
+		};
+		2ECC267B25F5DC1F00EEA388 /* PlayVC */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC267C25F5DC3300EEA388 /* PlayVC.swift */,
+				2ECC267D25F5DC3300EEA388 /* PlayVC.xib */,
+			);
+			path = PlayVC;
 			sourceTree = "<group>";
 		};
 		8EF91EE52172FC6A462FBAEA /* Frameworks */ = {
@@ -234,7 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECC267825F5DAB800EEA388 /* HomeKucasino.xib in Resources */,
 				2ECC25F225F5C6BA00EEA388 /* LaunchScreen.storyboard in Resources */,
+				2ECC267F25F5DC3300EEA388 /* PlayVC.xib in Resources */,
 				2ECC25EF25F5C6BA00EEA388 /* Assets.xcassets in Resources */,
 				2ECC266A25F5CDF500EEA388 /* HomeApp.xib in Resources */,
 				2ECC25ED25F5C6B800EEA388 /* Main.storyboard in Resources */,
@@ -318,6 +348,8 @@
 				2ECC264B25F5CB7000EEA388 /* KeyboardInfo.swift in Sources */,
 				2ECC265C25F5CB9700EEA388 /* ViewControllerExtension.swift in Sources */,
 				2ECC265E25F5CB9700EEA388 /* PropertyWapper.swift in Sources */,
+				2ECC267E25F5DC3300EEA388 /* PlayVC.swift in Sources */,
+				2ECC267725F5DAB800EEA388 /* HomeKucasino.swift in Sources */,
 				2ECC265D25F5CB9700EEA388 /* CustomButton.swift in Sources */,
 				2ECC265F25F5CB9700EEA388 /* ViewExtension.swift in Sources */,
 				2ECC266325F5CB9700EEA388 /* DateExtension.swift in Sources */,

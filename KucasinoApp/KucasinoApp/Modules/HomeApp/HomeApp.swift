@@ -12,6 +12,8 @@ import SnapKit
 
 class HomeApp: BaseViewController {
     
+    @IBOutlet weak var btPlay: UIButton!
+    
     private let disposeBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +28,9 @@ extension HomeApp {
     }
     
     private func setupRX() {
-        
+        self.btPlay.rx.tap.bind { _ in
+            let vc = PlayVC.initiationVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }.disposed(by: disposeBag)
     }
 }
