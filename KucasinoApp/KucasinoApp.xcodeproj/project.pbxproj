@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E551620AEE226C596258244 /* Pods_KucasinoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1DF01A94567C516B645F5F /* Pods_KucasinoApp.framework */; };
 		2ECC25E625F5C6B800EEA388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC25E525F5C6B800EEA388 /* AppDelegate.swift */; };
 		2ECC25E825F5C6B800EEA388 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC25E725F5C6B800EEA388 /* SceneDelegate.swift */; };
 		2ECC25EA25F5C6B800EEA388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC25E925F5C6B800EEA388 /* ViewController.swift */; };
@@ -24,6 +25,9 @@
 		2ECC25EE25F5C6BA00EEA388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ECC25F125F5C6BA00EEA388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ECC25F325F5C6BA00EEA388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1DF01A94567C516B645F5F /* Pods_KucasinoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KucasinoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AC36928CA4D187C5F7D04A /* Pods-KucasinoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KucasinoApp.debug.xcconfig"; path = "Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E6DDB5A55408AA42057E72F0 /* Pods-KucasinoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KucasinoApp.release.xcconfig"; path = "Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E551620AEE226C596258244 /* Pods_KucasinoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05378A295A2FD097E27A4569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1AC36928CA4D187C5F7D04A /* Pods-KucasinoApp.debug.xcconfig */,
+				E6DDB5A55408AA42057E72F0 /* Pods-KucasinoApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2ECC25D925F5C6B800EEA388 = {
 			isa = PBXGroup;
 			children = (
 				2ECC25E425F5C6B800EEA388 /* KucasinoApp */,
 				2ECC25E325F5C6B800EEA388 /* Products */,
+				05378A295A2FD097E27A4569 /* Pods */,
+				8EF91EE52172FC6A462FBAEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = KucasinoApp;
 			sourceTree = "<group>";
 		};
+		8EF91EE52172FC6A462FBAEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1DF01A94567C516B645F5F /* Pods_KucasinoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ECC25F625F5C6BA00EEA388 /* Build configuration list for PBXNativeTarget "KucasinoApp" */;
 			buildPhases = (
+				F66518B70FEF0A48360A82E5 /* [CP] Check Pods Manifest.lock */,
 				2ECC25DE25F5C6B800EEA388 /* Sources */,
 				2ECC25DF25F5C6B800EEA388 /* Frameworks */,
 				2ECC25E025F5C6B800EEA388 /* Resources */,
+				630ECBA009146F26D9513DA6 /* [CP] Embed Pods Frameworks */,
+				C4ECFDFE8838CBC6A21D74F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +159,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		630ECBA009146F26D9513DA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4ECFDFE8838CBC6A21D74F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66518B70FEF0A48360A82E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KucasinoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2ECC25DE25F5C6B800EEA388 /* Sources */ = {
@@ -283,6 +370,7 @@
 		};
 		2ECC25F725F5C6BA00EEA388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AC36928CA4D187C5F7D04A /* Pods-KucasinoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +390,7 @@
 		};
 		2ECC25F825F5C6BA00EEA388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DDB5A55408AA42057E72F0 /* Pods-KucasinoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

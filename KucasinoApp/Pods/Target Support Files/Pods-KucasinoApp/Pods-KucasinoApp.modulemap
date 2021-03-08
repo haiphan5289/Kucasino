@@ -1,0 +1,6 @@
+framework module Pods_KucasinoApp {
+  umbrella header "Pods-KucasinoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
