@@ -71,4 +71,9 @@ extension Reactive where Base: UIViewController {
     }
     
 }
-
+extension UIViewController {
+    static func initiationVC() -> UIViewController {
+        let vc = Self(nibName: "\(self)", bundle: nil)
+        return vc
+    }
+}
