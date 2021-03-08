@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,21 @@
 		2ECC25ED25F5C6B800EEA388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC25EB25F5C6B800EEA388 /* Main.storyboard */; };
 		2ECC25EF25F5C6BA00EEA388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC25EE25F5C6BA00EEA388 /* Assets.xcassets */; };
 		2ECC25F225F5C6BA00EEA388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC25F025F5C6BA00EEA388 /* LaunchScreen.storyboard */; };
+		2ECC264825F5CB7000EEA388 /* BaseNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC264425F5CB7000EEA388 /* BaseNavigation.swift */; };
+		2ECC264925F5CB7000EEA388 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC264525F5CB7000EEA388 /* AppSettings.swift */; };
+		2ECC264A25F5CB7000EEA388 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC264625F5CB7000EEA388 /* BaseViewController.swift */; };
+		2ECC264B25F5CB7000EEA388 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC264725F5CB7000EEA388 /* KeyboardInfo.swift */; };
+		2ECC265925F5CB9700EEA388 /* Obserable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC264E25F5CB9700EEA388 /* Obserable+Extension.swift */; };
+		2ECC265A25F5CB9700EEA388 /* UITapgesture+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC264F25F5CB9700EEA388 /* UITapgesture+Extension.swift */; };
+		2ECC265B25F5CB9700EEA388 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265025F5CB9700EEA388 /* UIWindow+Extension.swift */; };
+		2ECC265C25F5CB9700EEA388 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265125F5CB9700EEA388 /* ViewControllerExtension.swift */; };
+		2ECC265D25F5CB9700EEA388 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265225F5CB9700EEA388 /* CustomButton.swift */; };
+		2ECC265E25F5CB9700EEA388 /* PropertyWapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265325F5CB9700EEA388 /* PropertyWapper.swift */; };
+		2ECC265F25F5CB9700EEA388 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265425F5CB9700EEA388 /* ViewExtension.swift */; };
+		2ECC266025F5CB9700EEA388 /* UIAllertVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265525F5CB9700EEA388 /* UIAllertVC+Extension.swift */; };
+		2ECC266125F5CB9700EEA388 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265625F5CB9700EEA388 /* Font+Extension.swift */; };
+		2ECC266225F5CB9700EEA388 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265725F5CB9700EEA388 /* CodableExtension.swift */; };
+		2ECC266325F5CB9700EEA388 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC265825F5CB9700EEA388 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +40,21 @@
 		2ECC25EE25F5C6BA00EEA388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ECC25F125F5C6BA00EEA388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ECC25F325F5C6BA00EEA388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECC264425F5CB7000EEA388 /* BaseNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigation.swift; sourceTree = "<group>"; };
+		2ECC264525F5CB7000EEA388 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		2ECC264625F5CB7000EEA388 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2ECC264725F5CB7000EEA388 /* KeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
+		2ECC264E25F5CB9700EEA388 /* Obserable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Obserable+Extension.swift"; sourceTree = "<group>"; };
+		2ECC264F25F5CB9700EEA388 /* UITapgesture+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITapgesture+Extension.swift"; sourceTree = "<group>"; };
+		2ECC265025F5CB9700EEA388 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		2ECC265125F5CB9700EEA388 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		2ECC265225F5CB9700EEA388 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2ECC265325F5CB9700EEA388 /* PropertyWapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyWapper.swift; sourceTree = "<group>"; };
+		2ECC265425F5CB9700EEA388 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		2ECC265525F5CB9700EEA388 /* UIAllertVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAllertVC+Extension.swift"; sourceTree = "<group>"; };
+		2ECC265625F5CB9700EEA388 /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		2ECC265725F5CB9700EEA388 /* CodableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		2ECC265825F5CB9700EEA388 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		BF1DF01A94567C516B645F5F /* Pods_KucasinoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KucasinoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AC36928CA4D187C5F7D04A /* Pods-KucasinoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KucasinoApp.debug.xcconfig"; path = "Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E6DDB5A55408AA42057E72F0 /* Pods-KucasinoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KucasinoApp.release.xcconfig"; path = "Target Support Files/Pods-KucasinoApp/Pods-KucasinoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +78,6 @@
 				D1AC36928CA4D187C5F7D04A /* Pods-KucasinoApp.debug.xcconfig */,
 				E6DDB5A55408AA42057E72F0 /* Pods-KucasinoApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +102,8 @@
 		2ECC25E425F5C6B800EEA388 /* KucasinoApp */ = {
 			isa = PBXGroup;
 			children = (
+				2ECC264D25F5CB9700EEA388 /* Extension */,
+				2ECC264325F5CB7000EEA388 /* Common */,
 				2ECC25E525F5C6B800EEA388 /* AppDelegate.swift */,
 				2ECC25E725F5C6B800EEA388 /* SceneDelegate.swift */,
 				2ECC25E925F5C6B800EEA388 /* ViewController.swift */,
@@ -82,6 +113,35 @@
 				2ECC25F325F5C6BA00EEA388 /* Info.plist */,
 			);
 			path = KucasinoApp;
+			sourceTree = "<group>";
+		};
+		2ECC264325F5CB7000EEA388 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC264425F5CB7000EEA388 /* BaseNavigation.swift */,
+				2ECC264525F5CB7000EEA388 /* AppSettings.swift */,
+				2ECC264625F5CB7000EEA388 /* BaseViewController.swift */,
+				2ECC264725F5CB7000EEA388 /* KeyboardInfo.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2ECC264D25F5CB9700EEA388 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC264E25F5CB9700EEA388 /* Obserable+Extension.swift */,
+				2ECC264F25F5CB9700EEA388 /* UITapgesture+Extension.swift */,
+				2ECC265025F5CB9700EEA388 /* UIWindow+Extension.swift */,
+				2ECC265125F5CB9700EEA388 /* ViewControllerExtension.swift */,
+				2ECC265225F5CB9700EEA388 /* CustomButton.swift */,
+				2ECC265325F5CB9700EEA388 /* PropertyWapper.swift */,
+				2ECC265425F5CB9700EEA388 /* ViewExtension.swift */,
+				2ECC265525F5CB9700EEA388 /* UIAllertVC+Extension.swift */,
+				2ECC265625F5CB9700EEA388 /* Font+Extension.swift */,
+				2ECC265725F5CB9700EEA388 /* CodableExtension.swift */,
+				2ECC265825F5CB9700EEA388 /* DateExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		8EF91EE52172FC6A462FBAEA /* Frameworks */ = {
@@ -225,8 +285,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECC25EA25F5C6B800EEA388 /* ViewController.swift in Sources */,
+				2ECC265B25F5CB9700EEA388 /* UIWindow+Extension.swift in Sources */,
+				2ECC266025F5CB9700EEA388 /* UIAllertVC+Extension.swift in Sources */,
 				2ECC25E625F5C6B800EEA388 /* AppDelegate.swift in Sources */,
+				2ECC264825F5CB7000EEA388 /* BaseNavigation.swift in Sources */,
+				2ECC266225F5CB9700EEA388 /* CodableExtension.swift in Sources */,
+				2ECC265925F5CB9700EEA388 /* Obserable+Extension.swift in Sources */,
+				2ECC264925F5CB7000EEA388 /* AppSettings.swift in Sources */,
+				2ECC264B25F5CB7000EEA388 /* KeyboardInfo.swift in Sources */,
+				2ECC265C25F5CB9700EEA388 /* ViewControllerExtension.swift in Sources */,
+				2ECC265E25F5CB9700EEA388 /* PropertyWapper.swift in Sources */,
+				2ECC265D25F5CB9700EEA388 /* CustomButton.swift in Sources */,
+				2ECC265F25F5CB9700EEA388 /* ViewExtension.swift in Sources */,
+				2ECC266325F5CB9700EEA388 /* DateExtension.swift in Sources */,
+				2ECC265A25F5CB9700EEA388 /* UITapgesture+Extension.swift in Sources */,
 				2ECC25E825F5C6B800EEA388 /* SceneDelegate.swift in Sources */,
+				2ECC266125F5CB9700EEA388 /* Font+Extension.swift in Sources */,
+				2ECC264A25F5CB7000EEA388 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
