@@ -9,6 +9,13 @@ import UIKit
 import RxSwift
 import RxCocoa
 
+enum ListButton: Int, CaseIterable {
+    case one = 0
+    case two = 1
+    case three = 2
+    case four = 3
+}
+
 class PlayVC: BaseViewController {
     
     @IBOutlet weak var btBack: UIButton!
@@ -45,12 +52,13 @@ extension PlayVC {
         })).disposed(by: disposeBag)
         
         let bts = [self.BtResult1, self.btResultTwo, self.btResultThree, self.btResultFour]
-        bts.forEach { (bt) in
-            guard let bt = bt else {
+                
+        ListButton.allCases.forEach { (type) in
+            guard let bt = bts[type.rawValue] else {
                 return
             }
             bt.rx.tap.bind { _ in
-                guard let value = self.BtResult1.titleLabel?.text, let v = Int(value) else {
+                guard let value = bt.titleLabel?.text, let v = Int(value) else {
                     return
                 }
                 self.checkValue(value: v)
@@ -95,20 +103,28 @@ extension PlayVC {
         list.append(numberTwo)
         list.append(numberThree)
         list.append(numberFour)
+        list.shuffle()
         
         let text1 = Int.random(in: 0..<list.count - 1)
         self.BtResult1.setTitle("\(list[text1])", for: .normal)
         
         let list2 = self.removeNumber(list: list, number: list[text1])
-        let text2 =  Int.random(in: 0..<list2.count - 1)
-        self.btResultTwo.setTitle("\(list2[text2])", for: .normal)
+        if list2.count > 0 {
+            let text2 =  Int.random(in: 0..<list2.count - 1)
+            self.btResultTwo.setTitle("\(list2[text2])", for: .normal)
+            
+            let list3 = self.removeNumber(list: list2, number: list2[text2])
+            if list3.count > 0 {
+                let text3 =  Int.random(in: 0..<list3.count - 1)
+                self.btResultThree.setTitle("\(list3[text3])", for: .normal)
+                
+                let list4 = self.removeNumber(list: list3, number: list3[text3])
+                self.btResultFour.setTitle("\(list4[0])", for: .normal)
+            }
+            
+        }
         
-        let list3 = self.removeNumber(list: list2, number: list2[text2])
-        let text3 =  Int.random(in: 0..<list3.count - 1)
-        self.btResultThree.setTitle("\(list3[text3])", for: .normal)
-        
-        let list4 = self.removeNumber(list: list3, number: list3[text3])
-        self.btResultFour.setTitle("\(list4[0])", for: .normal)
+
     }
     
     private func totalTwoNumber() -> Int {
