@@ -22,7 +22,7 @@ class HomeApp: BaseViewController {
     @IBOutlet weak var btPlay: UIButton!
     @IBOutlet weak var btRate: UIButton!
     @IBOutlet weak var btSupport: UIButton!
-    @IBOutlet weak var viewApp: UIView!
+    @IBOutlet weak var viewGame: UIView!
     
     private let disposeBag = DisposeBag()
     override func viewDidLoad() {
@@ -40,7 +40,7 @@ extension HomeApp {
             let isCheck = snapShot.value as? Int
             
             if isCheck == HomeType.game.rawValue {
-                self.viewApp.isHidden = false
+                self.viewGame.isHidden = false
             } else {
                 
             }
