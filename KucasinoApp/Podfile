@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'KucasinoApp' do
+target 'KuFun' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for KucasinoApp
+  # Pods for KuFun
 
   pod 'NVActivityIndicatorView'
   pod 'SwiftDate'
@@ -23,9 +23,16 @@ target 'KucasinoApp' do
   pod 'GooglePlacePicker'
   pod 'Cosmos'
   pod 'MBProgressHUD'
-  pod 'FirebaseCore', '~> 6.5.0'
-  pod 'FirebaseMessaging', '~> 4.1.10'
-  pod 'FirebaseAuth', '~> 6.4.1'
+  
+pod 'Firebase/Core', '~> 4.0.3'
+pod 'FacebookLogin'
+pod 'FacebookShare'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase'
+pod 'Firebase/Storage'
+pod 'Firebase/Database'
+  
   pod 'Codextended'
   pod 'DropDown'
   pod 'Charts'
