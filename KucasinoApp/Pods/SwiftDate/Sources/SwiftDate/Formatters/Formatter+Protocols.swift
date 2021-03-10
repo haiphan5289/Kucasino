@@ -46,7 +46,6 @@ public enum DateToStringStyles {
 	case date(_: DateFormatter.Style)
 	case time(_: DateFormatter.Style)
 	case dateTime(_: DateFormatter.Style)
-    case dateTimeMixed(dateStyle: DateFormatter.Style, timeStyle: DateFormatter.Style)
 	case custom(_: String)
 	case standard
 	case relative(style: RelativeFormatter.Style?)
@@ -77,11 +76,6 @@ public enum DateToStringStyles {
 				$0.dateStyle = style
 				$0.timeStyle = style
 			}).string(from: date.date)
-        case .dateTimeMixed(let dateStyle, let timeStyle):
-            return date.formatterForRegion(format: nil, configuration: {
-                $0.dateStyle = dateStyle
-                $0.timeStyle = timeStyle
-            }).string(from: date.date)
 		case .relative(let style):
 			return RelativeFormatter.format(date, options: style)
 		}

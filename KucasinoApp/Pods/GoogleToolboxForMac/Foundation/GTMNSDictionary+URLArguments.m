@@ -22,6 +22,10 @@
 #import "GTMDefines.h"
 
 
+// Export a nonsense symbol to suppress a libtool warning when this is linked alone in a static lib.
+__attribute__((visibility("default")))
+    char GTMNSDictionaryURLArgumentsExportToSuppressLibToolWarning = 0;
+
 #pragma clang diagnostic push
 // Ignore all of the deprecation warnings for GTMNSString+URLArguments
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"

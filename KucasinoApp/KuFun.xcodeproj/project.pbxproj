@@ -34,11 +34,12 @@
 		2E6492B125F72C8C00FDC7FB /* PlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6492AA25F72C8C00FDC7FB /* PlayVC.xib */; };
 		2E64962425F76E1B00FDC7FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E64962325F76E1B00FDC7FB /* GoogleService-Info.plist */; };
 		2E64962825F7725400FDC7FB /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E64962725F7725300FDC7FB /* HomeModel.swift */; };
-		913A2BC4672749E14568DC71 /* Pods_KuFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39513DD0EF18B054C177D4AD /* Pods_KuFun.framework */; };
+		FD59B9D786DC9A69F0114B42 /* Pods_KuFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1817746207602FB9CFBC7E2 /* Pods_KuFun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E64920F25F723BE00FDC7FB /* KuFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2912D84A00B365E25433209B /* Pods-KuFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuFun.release.xcconfig"; path = "Target Support Files/Pods-KuFun/Pods-KuFun.release.xcconfig"; sourceTree = "<group>"; };
+		2E64920F25F723BE00FDC7FB /* KU Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KU Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E64921225F723BE00FDC7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E64921425F723BE00FDC7FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E64921625F723BE00FDC7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,9 +68,8 @@
 		2E6492AA25F72C8C00FDC7FB /* PlayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayVC.xib; sourceTree = "<group>"; };
 		2E64962325F76E1B00FDC7FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E64962725F7725300FDC7FB /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
-		39513DD0EF18B054C177D4AD /* Pods_KuFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KuFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C80F4896754C3AA0DDCFF8E /* Pods-KuFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuFun.debug.xcconfig"; path = "Target Support Files/Pods-KuFun/Pods-KuFun.debug.xcconfig"; sourceTree = "<group>"; };
-		DB3955442F3B1D7856B532FF /* Pods-KuFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuFun.release.xcconfig"; path = "Target Support Files/Pods-KuFun/Pods-KuFun.release.xcconfig"; sourceTree = "<group>"; };
+		C1817746207602FB9CFBC7E2 /* Pods_KuFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KuFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F2B3B5853AA8CC773ACC5F /* Pods-KuFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuFun.debug.xcconfig"; path = "Target Support Files/Pods-KuFun/Pods-KuFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913A2BC4672749E14568DC71 /* Pods_KuFun.framework in Frameworks */,
+				FD59B9D786DC9A69F0114B42 /* Pods_KuFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,14 +90,14 @@
 				2E64921125F723BE00FDC7FB /* KuFun */,
 				2E64921025F723BE00FDC7FB /* Products */,
 				3E81EC18608B69CA49C0C3CD /* Pods */,
-				850BAE40184BC42CC54BF25F /* Frameworks */,
+				6F585CE912B60BB3D8884B76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2E64921025F723BE00FDC7FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E64920F25F723BE00FDC7FB /* KuFun.app */,
+				2E64920F25F723BE00FDC7FB /* KU Fun.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,16 +188,16 @@
 		3E81EC18608B69CA49C0C3CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C80F4896754C3AA0DDCFF8E /* Pods-KuFun.debug.xcconfig */,
-				DB3955442F3B1D7856B532FF /* Pods-KuFun.release.xcconfig */,
+				E2F2B3B5853AA8CC773ACC5F /* Pods-KuFun.debug.xcconfig */,
+				2912D84A00B365E25433209B /* Pods-KuFun.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		850BAE40184BC42CC54BF25F /* Frameworks */ = {
+		6F585CE912B60BB3D8884B76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39513DD0EF18B054C177D4AD /* Pods_KuFun.framework */,
+				C1817746207602FB9CFBC7E2 /* Pods_KuFun.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,12 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E64922325F723C000FDC7FB /* Build configuration list for PBXNativeTarget "KuFun" */;
 			buildPhases = (
-				A24C39A24AD4B294DA94B060 /* [CP] Check Pods Manifest.lock */,
+				FC161B704494566086DED361 /* [CP] Check Pods Manifest.lock */,
 				2E64920B25F723BE00FDC7FB /* Sources */,
 				2E64920C25F723BE00FDC7FB /* Frameworks */,
 				2E64920D25F723BE00FDC7FB /* Resources */,
-				C67B4A40A948DAEBA6B45C29 /* [CP] Embed Pods Frameworks */,
-				26EDD00057C005E13759C088 /* [CP] Copy Pods Resources */,
+				92930F4FBDC7D44DA2F94C00 /* [CP] Embed Pods Frameworks */,
+				7432234AD35291F0F07D5C32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +222,7 @@
 			);
 			name = KuFun;
 			productName = KuFun;
-			productReference = 2E64920F25F723BE00FDC7FB /* KuFun.app */;
+			productReference = 2E64920F25F723BE00FDC7FB /* KU Fun.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26EDD00057C005E13759C088 /* [CP] Copy Pods Resources */ = {
+		7432234AD35291F0F07D5C32 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,7 +291,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KuFun/Pods-KuFun-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A24C39A24AD4B294DA94B060 /* [CP] Check Pods Manifest.lock */ = {
+		92930F4FBDC7D44DA2F94C00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KuFun/Pods-KuFun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KuFun/Pods-KuFun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KuFun/Pods-KuFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC161B704494566086DED361 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,23 +328,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C67B4A40A948DAEBA6B45C29 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KuFun/Pods-KuFun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KuFun/Pods-KuFun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KuFun/Pods-KuFun-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -501,7 +501,7 @@
 		};
 		2E64922425F723C000FDC7FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C80F4896754C3AA0DDCFF8E /* Pods-KuFun.debug.xcconfig */;
+			baseConfigurationReference = E2F2B3B5853AA8CC773ACC5F /* Pods-KuFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -513,7 +513,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = haiphan.KuFun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "KU Fun";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -521,7 +521,7 @@
 		};
 		2E64922525F723C000FDC7FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB3955442F3B1D7856B532FF /* Pods-KuFun.release.xcconfig */;
+			baseConfigurationReference = 2912D84A00B365E25433209B /* Pods-KuFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -533,7 +533,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = haiphan.KuFun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "KU Fun";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

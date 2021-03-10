@@ -2,8 +2,6 @@
 //  UIImageView+SwiftyGif.swift
 //
 
-#if !os(macOS)
-
 import ImageIO
 import UIKit
 
@@ -459,6 +457,8 @@ public extension UIImageView {
             
             if newValue {
                 delegate?.gifDidStart?(sender: self)
+            } else {
+                delegate?.gifDidStop?(sender: self)
             }
         }
     }
@@ -482,5 +482,3 @@ public extension UIImageView {
         return (result as? T)
     }
 }
-
-#endif

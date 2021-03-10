@@ -4,10 +4,10 @@ import Foundation
 
 extension Int {
     var whitespace: String {
-        whitespaces
+        return whitespaces
     }
     
     var whitespaces: String {
-        String(repeating: " ", count: self)
+        return String(repeating: " ", count: self)
     }
 }

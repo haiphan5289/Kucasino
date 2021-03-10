@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/teodorpatras/EasyTipView/master/assets/easytipview.png" alt="EasyTipView: fully customisable tooltip view written in Swift" style="width: 500px;"/>
 
-![Swift3](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat")
+![Swift3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat")
 [![Platform](https://img.shields.io/cocoapods/p/EasyTipView.svg?style=flat)](http://cocoapods.org/pods/EasyTipView)
 [![Build Status](https://travis-ci.org/teodorpatras/EasyTipView.svg)](https://travis-ci.org/teodorpatras/EasyTipView)
 [![Version](https://img.shields.io/cocoapods/v/EasyTipView.svg?style=flat)](http://cocoapods.org/pods/EasyTipView)
@@ -31,7 +31,7 @@ Description
 - [x] Can be shown pointing to any ``UIBarItem`` or ``UIView`` subclass.
 - [x] Support for any arrow direction `←, →, ↑, ↓`
 - [x] Automatic orientation change adjustments.
-- [x] Fully customizable appearance (custom content view or simply just text - including `NSAttributedString` - see the Example app).
+- [x] Fully customizable appearance (text or custom content view).
 - [x] Fully customizable presentation and dismissal animations.
 
 
@@ -53,13 +53,13 @@ To integrate EasyTipView into your Xcode project using CocoaPods, specify it in 
 For **Swift 4.x**
 
 ```ruby
-pod 'EasyTipView', '~> 2.1.0'
+pod 'EasyTipView', '~> 2.0.4'
 ```
 
 For **Swift 3.x**
 
 ```ruby
-pod 'EasyTipView', '~> 2.1.0'
+pod 'EasyTipView', '~> 2.0.4'
 ```
 
 Then, run the following command:
@@ -109,7 +109,7 @@ var preferences = EasyTipView.Preferences()
 preferences.drawing.font = UIFont(name: "Futura-Medium", size: 13)!
 preferences.drawing.foregroundColor = UIColor.whiteColor()
 preferences.drawing.backgroundColor = UIColor(hue:0.46, saturation:0.99, brightness:0.6, alpha:1)
-preferences.drawing.arrowPosition = EasyTipView.ArrowPosition.top
+preferences.drawing.arrowPosition = EasyTipView.ArrowPosition.Top
 
 /*
  * Optionally you can make these preferences global for all future EasyTipViews
