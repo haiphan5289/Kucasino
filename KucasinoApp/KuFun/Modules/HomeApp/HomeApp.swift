@@ -41,7 +41,8 @@ extension HomeApp {
         let dataBase = Database.database().reference()
         dataBase.child("Home").observe(.childAdded) { (snapShot) in
             let isCheck = snapShot.value as? Int
-            
+            //0: App
+            //1 : game
             if isCheck == HomeType.game.rawValue {
                 self.viewGame.isHidden = false
             } else {
