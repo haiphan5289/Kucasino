@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2912D84A00B365E25433209B /* Pods-KuFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuFun.release.xcconfig"; path = "Target Support Files/Pods-KuFun/Pods-KuFun.release.xcconfig"; sourceTree = "<group>"; };
-		2E64920F25F723BE00FDC7FB /* KU Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KU Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E64920F25F723BE00FDC7FB /* Ku App New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ku App New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E64921225F723BE00FDC7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E64921425F723BE00FDC7FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E64921625F723BE00FDC7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		2E64921025F723BE00FDC7FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E64920F25F723BE00FDC7FB /* KU Fun.app */,
+				2E64920F25F723BE00FDC7FB /* Ku App New.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 			);
 			name = KuFun;
 			productName = KuFun;
-			productReference = 2E64920F25F723BE00FDC7FB /* KU Fun.app */;
+			productReference = 2E64920F25F723BE00FDC7FB /* Ku App New.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -505,15 +505,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VA7N3EEEN;
+				DEVELOPMENT_TEAM = XC3R8R2845;
 				INFOPLIST_FILE = KuFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = haiphan.KuFun;
-				PRODUCT_NAME = "KU Fun";
+				PRODUCT_NAME = "Ku App New";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -525,15 +527,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VA7N3EEEN;
+				DEVELOPMENT_TEAM = XC3R8R2845;
 				INFOPLIST_FILE = KuFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = haiphan.KuFun;
-				PRODUCT_NAME = "KU Fun";
+				PRODUCT_NAME = "Ku App New";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
