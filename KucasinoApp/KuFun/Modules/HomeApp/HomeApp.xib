@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeApp" customModule="KU_Fun" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeApp" customModule="Ku_App_New" customModuleProvider="target">
             <connections>
                 <outlet property="btContact" destination="nT3-np-3Jy" id="SyJ-wC-UjL"/>
                 <outlet property="btHome" destination="FBB-yH-L5W" id="fx3-1E-Lcp"/>
                 <outlet property="btPlay" destination="6HK-bt-JLg" id="E9a-N1-cxa"/>
                 <outlet property="btRate" destination="d8w-UZ-bsJ" id="uxN-fn-VJ0"/>
                 <outlet property="btSupport" destination="E51-WX-vYu" id="3qA-Va-VDe"/>
+                <outlet property="btZodiac" destination="eV2-kT-LDx" id="jHN-dV-bfY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewApp" destination="leK-Po-evQ" id="837-o9-tc5"/>
                 <outlet property="viewGame" destination="NNW-sM-9Yb" id="DyX-Pp-nmc"/>
@@ -27,77 +28,6 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNW-sM-9Yb">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                    <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="iJP-M9-R0L">
-                            <rect key="frame" x="107" y="307" width="200" height="204"/>
-                            <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HK-bt-JLg">
-                                    <rect key="frame" x="0.0" y="0.0" width="200" height="48"/>
-                                    <color key="backgroundColor" name="ButtonHome"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="200" id="7gK-TH-qE6"/>
-                                    </constraints>
-                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
-                                    <state key="normal" title="Play Game">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </state>
-                                    <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                            <real key="value" value="5"/>
-                                        </userDefinedRuntimeAttribute>
-                                    </userDefinedRuntimeAttributes>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8w-UZ-bsJ">
-                                    <rect key="frame" x="0.0" y="78" width="200" height="48"/>
-                                    <color key="backgroundColor" name="ButtonHome"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="200" id="w6K-WX-UBi"/>
-                                    </constraints>
-                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
-                                    <state key="normal" title="Rate Us">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </state>
-                                    <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                            <real key="value" value="5"/>
-                                        </userDefinedRuntimeAttribute>
-                                    </userDefinedRuntimeAttributes>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E51-WX-vYu">
-                                    <rect key="frame" x="0.0" y="156" width="200" height="48"/>
-                                    <color key="backgroundColor" name="ButtonHome"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="200" id="a0h-IM-TPu"/>
-                                    </constraints>
-                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
-                                    <state key="normal" title="Support">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </state>
-                                    <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                            <real key="value" value="5"/>
-                                        </userDefinedRuntimeAttribute>
-                                    </userDefinedRuntimeAttributes>
-                                </button>
-                            </subviews>
-                        </stackView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="QnB-vb-dEd">
-                            <rect key="frame" x="20" y="20" width="374" height="267"/>
-                        </imageView>
-                    </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstItem="iJP-M9-R0L" firstAttribute="top" secondItem="QnB-vb-dEd" secondAttribute="bottom" constant="20" id="4rW-6t-mwF"/>
-                        <constraint firstItem="QnB-vb-dEd" firstAttribute="leading" secondItem="NNW-sM-9Yb" secondAttribute="leading" constant="20" id="9K4-6P-ZYW"/>
-                        <constraint firstAttribute="trailing" secondItem="QnB-vb-dEd" secondAttribute="trailing" constant="20" id="C4O-4h-BZX"/>
-                        <constraint firstItem="iJP-M9-R0L" firstAttribute="top" secondItem="QnB-vb-dEd" secondAttribute="bottom" constant="20" id="CwQ-kI-0bn"/>
-                        <constraint firstItem="iJP-M9-R0L" firstAttribute="centerY" secondItem="NNW-sM-9Yb" secondAttribute="centerY" id="FqW-5L-yZU"/>
-                        <constraint firstItem="iJP-M9-R0L" firstAttribute="centerX" secondItem="NNW-sM-9Yb" secondAttribute="centerX" id="Xu8-TW-ChU"/>
-                        <constraint firstItem="QnB-vb-dEd" firstAttribute="top" secondItem="NNW-sM-9Yb" secondAttribute="top" constant="20" id="cuM-8b-wqY"/>
-                    </constraints>
-                </view>
                 <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leK-Po-evQ">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                     <subviews>
@@ -152,6 +82,93 @@
                         <constraint firstAttribute="trailing" secondItem="3Jg-pf-DR3" secondAttribute="trailing" constant="20" id="Mdp-ZL-U3G"/>
                         <constraint firstItem="3Jg-pf-DR3" firstAttribute="leading" secondItem="leK-Po-evQ" secondAttribute="leading" constant="20" id="Xkq-V1-GGv"/>
                         <constraint firstItem="3Jg-pf-DR3" firstAttribute="top" secondItem="leK-Po-evQ" secondAttribute="top" constant="20" id="YxC-NA-say"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNW-sM-9Yb">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="iJP-M9-R0L">
+                            <rect key="frame" x="107" y="268" width="200" height="282"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HK-bt-JLg">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="48"/>
+                                    <color key="backgroundColor" name="ButtonHome"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="200" id="7gK-TH-qE6"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
+                                    <state key="normal" title="Play Game">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8w-UZ-bsJ">
+                                    <rect key="frame" x="0.0" y="78" width="200" height="48"/>
+                                    <color key="backgroundColor" name="ButtonHome"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="200" id="w6K-WX-UBi"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
+                                    <state key="normal" title="Rate Us">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E51-WX-vYu">
+                                    <rect key="frame" x="0.0" y="156" width="200" height="48"/>
+                                    <color key="backgroundColor" name="ButtonHome"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="200" id="a0h-IM-TPu"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
+                                    <state key="normal" title="Support">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eV2-kT-LDx">
+                                    <rect key="frame" x="0.0" y="234" width="200" height="48"/>
+                                    <color key="backgroundColor" name="ButtonHome"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="200" id="3pq-9v-szM"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
+                                    <state key="normal" title="Zodiac">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="QnB-vb-dEd">
+                            <rect key="frame" x="20" y="20" width="374" height="228"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="iJP-M9-R0L" firstAttribute="top" secondItem="QnB-vb-dEd" secondAttribute="bottom" constant="20" id="4rW-6t-mwF"/>
+                        <constraint firstItem="QnB-vb-dEd" firstAttribute="leading" secondItem="NNW-sM-9Yb" secondAttribute="leading" constant="20" id="9K4-6P-ZYW"/>
+                        <constraint firstAttribute="trailing" secondItem="QnB-vb-dEd" secondAttribute="trailing" constant="20" id="C4O-4h-BZX"/>
+                        <constraint firstItem="iJP-M9-R0L" firstAttribute="top" secondItem="QnB-vb-dEd" secondAttribute="bottom" constant="20" id="CwQ-kI-0bn"/>
+                        <constraint firstItem="iJP-M9-R0L" firstAttribute="centerY" secondItem="NNW-sM-9Yb" secondAttribute="centerY" id="FqW-5L-yZU"/>
+                        <constraint firstItem="iJP-M9-R0L" firstAttribute="centerX" secondItem="NNW-sM-9Yb" secondAttribute="centerX" id="Xu8-TW-ChU"/>
+                        <constraint firstItem="QnB-vb-dEd" firstAttribute="top" secondItem="NNW-sM-9Yb" secondAttribute="top" constant="20" id="cuM-8b-wqY"/>
                     </constraints>
                 </view>
             </subviews>

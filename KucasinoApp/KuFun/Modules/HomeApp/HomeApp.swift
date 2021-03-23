@@ -26,6 +26,7 @@ class HomeApp: BaseViewController {
     @IBOutlet weak var viewApp: UIView!
     @IBOutlet weak var btHome: UIButton!
     @IBOutlet weak var btContact: UIButton!
+    @IBOutlet weak var btZodiac: UIButton!
     
     private let disposeBag = DisposeBag()
     override func viewDidLoad() {
@@ -71,6 +72,14 @@ extension HomeApp {
 
         self.btContact.rx.tap.bind { _ in
             self.moveToZalo()
+        }.disposed(by: disposeBag)
+        
+        self.btZodiac.rx.tap.bind { _ in
+            let vc = ZodiacVC(nibName: "ZodiacVC", bundle: nil)
+            let nv: UINavigationController = UINavigationController(rootViewController: vc)
+//            self.navigationController?.pushViewController(vc, animated: true)
+            nv.modalPresentationStyle = .overFullScreen
+            self.present(nv, animated: true, completion: nil)
         }.disposed(by: disposeBag)
 
     }

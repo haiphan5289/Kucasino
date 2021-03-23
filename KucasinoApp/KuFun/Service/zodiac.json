@@ -1,0 +1,85 @@
+[
+    
+    {
+        "image" : "bach duong",
+        "text" : "Bạch Dương",
+        "day": "Bạch Dương (21/03 - 20/04)",
+        "code": "bach-duong"
+    },
+    
+    {
+        "image" : "kim nguu",
+        "text" : "Kim Ngưu",
+        "day": "Kim Ngưu (21/04 - 20/05)",
+        "code": "kim-nguu"
+    },
+    
+    {
+        "image" : "song tu",
+        "text" : "Song Tử",
+        "day": "Song Tử (21/05 - 21/06)",
+        "code" : "song-tu"
+    },
+    
+    {
+        "image" : "cu giai",
+        "text" : "Cự Giải",
+        "day": "Cự Giải (22/06 - 22/07)",
+        "code" : "cu-giai"
+    },
+    
+    {
+        "image" : "su tu",
+        "text" : "Sư Tử",
+        "day": "Sư Tử (23/07 - 22/08)",
+        "code" : "su-tu"
+    },
+    
+    {
+        "image" : "xu nu",
+        "text" : "Xử Nữ",
+        "day": "Xử Nữ (23/08 - 22/09)",
+        "code" : "xu-nu"
+    },
+    
+    {
+        "image" : "thien binh",
+        "text" : "Thiên Bình",
+        "day": "Thiên Bình (23/09 - 23/10)",
+        "code" : "thien-binh"
+    },
+    
+    {
+        "image" : "ho cap",
+        "text" : "Hổ Cáp",
+        "day": "Hổ Cáp (24/10 - 22/11)",
+        "code" : "thiet-yen"
+    },
+    {
+        "image" : "nhan ma",
+        "text" : "Nhân Mã",
+        "day": "Nhân Mã (23/11 - 21/12)",
+        "code" : "nhan-ma"
+    },
+    
+    {
+        "image" : "ma ket",
+        "text" : "Ma Kết",
+        "day": "Ma Kết (22/12 - 19/01)",
+        "code" : "ma-ket"
+    },
+    
+    {
+        "image" : "bao binh",
+        "text" : "Bảo Bình",
+        "day": "Bảo Bình (20/01 - 18/02)",
+        "code" : "bao-binh"
+    },
+    
+    {
+        "image" : "song ngu",
+        "text" : "Song Ngư",
+        "day": "Song Ngư (19/02 - 20/03)",
+        "code" : "song-ngu"
+    }
+]

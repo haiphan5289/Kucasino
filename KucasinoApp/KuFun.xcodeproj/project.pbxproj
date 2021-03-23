@@ -34,6 +34,14 @@
 		2E6492B125F72C8C00FDC7FB /* PlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6492AA25F72C8C00FDC7FB /* PlayVC.xib */; };
 		2E64962425F76E1B00FDC7FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E64962325F76E1B00FDC7FB /* GoogleService-Info.plist */; };
 		2E64962825F7725400FDC7FB /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E64962725F7725300FDC7FB /* HomeModel.swift */; };
+		93796858260A316600816081 /* ZodiacVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93796850260A316600816081 /* ZodiacVC.xib */; };
+		93796859260A316600816081 /* ZodiacVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93796851260A316600816081 /* ZodiacVC.swift */; };
+		9379685A260A316600816081 /* ZodiacCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93796853260A316600816081 /* ZodiacCell.xib */; };
+		9379685B260A316600816081 /* ZodiacCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93796854260A316600816081 /* ZodiacCell.swift */; };
+		9379685C260A316600816081 /* ZodiacDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93796856260A316600816081 /* ZodiacDetailVC.xib */; };
+		9379685D260A316600816081 /* ZodiacDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93796857260A316600816081 /* ZodiacDetailVC.swift */; };
+		937968F3260A32B800816081 /* zodiac.json in Resources */ = {isa = PBXBuildFile; fileRef = 937968F2260A32B800816081 /* zodiac.json */; };
+		937968F6260A330900816081 /* ReadJSONFallLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937968F5260A330900816081 /* ReadJSONFallLove.swift */; };
 		FD59B9D786DC9A69F0114B42 /* Pods_KuFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1817746207602FB9CFBC7E2 /* Pods_KuFun.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +76,14 @@
 		2E6492AA25F72C8C00FDC7FB /* PlayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayVC.xib; sourceTree = "<group>"; };
 		2E64962325F76E1B00FDC7FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E64962725F7725300FDC7FB /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		93796850260A316600816081 /* ZodiacVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZodiacVC.xib; sourceTree = "<group>"; };
+		93796851260A316600816081 /* ZodiacVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZodiacVC.swift; sourceTree = "<group>"; };
+		93796853260A316600816081 /* ZodiacCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZodiacCell.xib; sourceTree = "<group>"; };
+		93796854260A316600816081 /* ZodiacCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZodiacCell.swift; sourceTree = "<group>"; };
+		93796856260A316600816081 /* ZodiacDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZodiacDetailVC.xib; sourceTree = "<group>"; };
+		93796857260A316600816081 /* ZodiacDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZodiacDetailVC.swift; sourceTree = "<group>"; };
+		937968F2260A32B800816081 /* zodiac.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zodiac.json; sourceTree = "<group>"; };
+		937968F5260A330900816081 /* ReadJSONFallLove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadJSONFallLove.swift; sourceTree = "<group>"; };
 		C1817746207602FB9CFBC7E2 /* Pods_KuFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KuFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F2B3B5853AA8CC773ACC5F /* Pods-KuFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuFun.debug.xcconfig"; path = "Target Support Files/Pods-KuFun/Pods-KuFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +121,7 @@
 		2E64921125F723BE00FDC7FB /* KuFun */ = {
 			isa = PBXGroup;
 			children = (
+				937968F1260A32A700816081 /* Service */,
 				2E64923525F7245C00FDC7FB /* Common */,
 				2E64922925F7245C00FDC7FB /* Extension */,
 				2E6492A425F72C8C00FDC7FB /* Modules */,
@@ -152,6 +169,8 @@
 		2E6492A425F72C8C00FDC7FB /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				9379684F260A316600816081 /* Zodiac */,
+				93796855260A316600816081 /* ZodiacDetail */,
 				2E6492A525F72C8C00FDC7FB /* HomeApp */,
 				2E6492A825F72C8C00FDC7FB /* PlayVC */,
 			);
@@ -200,6 +219,43 @@
 				C1817746207602FB9CFBC7E2 /* Pods_KuFun.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9379684F260A316600816081 /* Zodiac */ = {
+			isa = PBXGroup;
+			children = (
+				93796850260A316600816081 /* ZodiacVC.xib */,
+				93796851260A316600816081 /* ZodiacVC.swift */,
+				93796852260A316600816081 /* Cell */,
+			);
+			path = Zodiac;
+			sourceTree = "<group>";
+		};
+		93796852260A316600816081 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				93796853260A316600816081 /* ZodiacCell.xib */,
+				93796854260A316600816081 /* ZodiacCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		93796855260A316600816081 /* ZodiacDetail */ = {
+			isa = PBXGroup;
+			children = (
+				93796856260A316600816081 /* ZodiacDetailVC.xib */,
+				93796857260A316600816081 /* ZodiacDetailVC.swift */,
+			);
+			path = ZodiacDetail;
+			sourceTree = "<group>";
+		};
+		937968F1260A32A700816081 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				937968F2260A32B800816081 /* zodiac.json */,
+				937968F5260A330900816081 /* ReadJSONFallLove.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E64921F25F723C000FDC7FB /* LaunchScreen.storyboard in Resources */,
+				937968F3260A32B800816081 /* zodiac.json in Resources */,
+				9379685A260A316600816081 /* ZodiacCell.xib in Resources */,
+				93796858260A316600816081 /* ZodiacVC.xib in Resources */,
 				2E64921C25F723C000FDC7FB /* Assets.xcassets in Resources */,
+				9379685C260A316600816081 /* ZodiacDetailVC.xib in Resources */,
 				2E6492AF25F72C8C00FDC7FB /* HomeApp.xib in Resources */,
 				2E64921A25F723BE00FDC7FB /* Main.storyboard in Resources */,
 				2E6492B125F72C8C00FDC7FB /* PlayVC.xib in Resources */,
@@ -342,7 +402,9 @@
 				2E6492B025F72C8C00FDC7FB /* PlayVC.swift in Sources */,
 				2E64921725F723BE00FDC7FB /* ViewController.swift in Sources */,
 				2E64921325F723BE00FDC7FB /* AppDelegate.swift in Sources */,
+				9379685D260A316600816081 /* ZodiacDetailVC.swift in Sources */,
 				2E64924225F7245C00FDC7FB /* Font+Extension.swift in Sources */,
+				937968F6260A330900816081 /* ReadJSONFallLove.swift in Sources */,
 				2E64923D25F7245C00FDC7FB /* ViewControllerExtension.swift in Sources */,
 				2E64921525F723BE00FDC7FB /* SceneDelegate.swift in Sources */,
 				2E64924725F7245C00FDC7FB /* BaseViewController.swift in Sources */,
@@ -357,6 +419,8 @@
 				2E64962825F7725400FDC7FB /* HomeModel.swift in Sources */,
 				2E64923C25F7245C00FDC7FB /* UIWindow+Extension.swift in Sources */,
 				2E64924625F7245C00FDC7FB /* AppSettings.swift in Sources */,
+				9379685B260A316600816081 /* ZodiacCell.swift in Sources */,
+				93796859260A316600816081 /* ZodiacVC.swift in Sources */,
 				2E64924125F7245C00FDC7FB /* UIAllertVC+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +571,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XC3R8R2845;
+				DEVELOPMENT_TEAM = 7VA7N3EEEN;
 				INFOPLIST_FILE = KuFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -529,7 +593,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XC3R8R2845;
+				DEVELOPMENT_TEAM = 7VA7N3EEEN;
 				INFOPLIST_FILE = KuFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
