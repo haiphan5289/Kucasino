@@ -77,7 +77,6 @@ extension HomeApp {
         self.btZodiac.rx.tap.bind { _ in
             let vc = ZodiacVC(nibName: "ZodiacVC", bundle: nil)
             let nv: UINavigationController = UINavigationController(rootViewController: vc)
-//            self.navigationController?.pushViewController(vc, animated: true)
             nv.modalPresentationStyle = .overFullScreen
             self.present(nv, animated: true, completion: nil)
         }.disposed(by: disposeBag)

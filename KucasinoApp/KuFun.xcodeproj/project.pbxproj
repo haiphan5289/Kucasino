@@ -577,6 +577,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = haiphan.KuFun;
 				PRODUCT_NAME = "Ku App New";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -599,6 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = haiphan.KuFun;
 				PRODUCT_NAME = "Ku App New";
 				PROVISIONING_PROFILE_SPECIFIER = "";
